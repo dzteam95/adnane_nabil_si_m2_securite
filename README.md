@@ -12,7 +12,6 @@ Posting articles (List, Edit handling)
 
 ## **🧱 Structure**
 
-In folder server and client we will find a Dockerfile to build the image:
 
 > ./backend/Dockerfile
 >
@@ -48,7 +47,7 @@ _we will find there the version and the services of deployment_
 
 ## **:rocket: Install & Deployment**
 
-> :\$ git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
+> :\$ git clone 
 
 Use docker:
 
@@ -80,11 +79,11 @@ Pactical basic for npm package manager
 
 :memo: Note
 
-Connection db `mongodb://mongodb:27017`
+Connection db 
 
-Backend port `https://localhost:8080`
+Backend port 
 
-Client access `https://localhost:3000`
+Client access 
 
 <br/>
 
@@ -124,16 +123,5 @@ Build images server & client:
 
 You can see _REPOSITORY_ and _IMAGE ID_ like this:
 
-| REPOSITORY | TAG | IMAGE ID     |
-| ---------- | --- | ------------ |
-| server     | 1.0 | baf5690ac0f2 |
-| client     | 1.0 | 4dd67690517e |
 
-> :\$ docker tag baf5690ac0f2 <hubusername>/server:1.0
->
-> :\$ docker push <hubusername>/server
-
-> :\$ docker tag 4dd67690517e <hubusername>/client:1.0
->
-> :\$ docker push <hubusername>/client
 
