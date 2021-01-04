@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  backend:
+    container_name: server
+    build: backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - 27017:27017
+
+  frontend:
+    container_name: client
+    build: frontend
+    ports:
+      - "3000:3000"
