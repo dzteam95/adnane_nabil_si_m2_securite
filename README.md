@@ -139,14 +139,3 @@ You can see _REPOSITORY_ and _IMAGE ID_ like this:
 >
 > :\$ docker push <hubusername>/client
 
-<br/>
-
-You can **pull** them via docker hub:
-
-https://hub.docker.com/repository/docker/jechtech/server
-
-> :\$ docker pull jechtech/server
-
-https://hub.docker.com/repository/docker/jechtech/client
-
-> :\$ docker pull jechtech/client
